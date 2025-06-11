@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scenario-Based Experiment</title>
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://script.google.com https://*.google.com"> -->
+    <script src="https://unpkg.com/jspsych@7.3.4"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-text@1.1.3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey-multi-choice@1.1.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-fullscreen@1.1.0"></script>
+    <link href="https://unpkg.com/jspsych@7.3.4/css/jspsych.css" rel="stylesheet" type="text/css" />
+    <style>
+      .hearts-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin: 8px 0;
+      }
+    
+      .heart {
+        position: relative;
+        width: 20px;
+        height: 18px;
+        display: inline-block;
+        margin: 0 2px;
+      }
+    
+      .heart:before,
+      .heart:after {
+        content: "";
+        position: absolute;
+        left: 10px;
+        top: 0;
+        width: 10px;
+        height: 16px;
+        border-radius: 10px 10px 0 0;
+        background-color: lightgray;
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+      }
+    
+      .heart:after {
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin: 100% 100%;
+      }
+    
+      .filled:before,
+      .filled:after {
+        background-color: red;
+      }
+
+      .jspsych-survey-text-question textarea {
+        font-size: 16px !important;
+        padding: 8px;
+      }
+
+      .jspsych-survey-multi-choice-option {
+  margin: 0 1em 0 0;
+}
+
+.jspsych-survey-multi-choice-horizontal .jspsych-survey-multi-choice-option {
+  display: inline-block;
+  margin: 0 1em 0 0;
+}
+
+.jspsych-survey-multi-choice-option input[type='radio'] {
+  margin-right: 0.5em;
+}
+/* Add this to your existing style section */
+.jspsych-survey-multi-choice-question {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.jspsych-survey-multi-choice-horizontal {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* This adds space between No and Yes */
+}
+
+/* Hide the asterisk but keep the field required */
+.jspsych-survey-multi-choice-question .required {
+  display: none;
+}
+
+textarea {
+    -webkit-user-select: text !important; /* Safari */
+    -moz-user-select: text !important; /* Firefox */
+    -ms-user-select: text !important; /* IE10+/Edge */
+    user-select: text !important; /* Standard */
+  }
+    </style>
+  </head>
+  <body>
+    <p>Loading the experiment... Please wait.</p>
+  </body>
+  <script>
+    // Add these styles to your existing style section
+const styles = document.createElement('style');
+styles.textContent = `
+  textarea {
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
+  }
+  
+  textarea::selection {
+    background: transparent;
+  }
+  
+  textarea::-moz-selection {
+    background: transparent;
+  }
+`;
+document.head.appendChild(styles);
+    // Replace with your Google Apps Script web app URL
+    // const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzc9TnnfWFYVsqB5W6mMyg7QS0Q5ctdlYzhSZ3ZJt67LiIlMR2n-EkO17YOkls6wtxV/exec";
+
+    // // Create list of CSV files
+    // const csvFiles = Array.from({ length: 52}, (_, i) =>
+    //   `./data_final/scenarios_utterance_production_free_response_format_shuffled_${i}.csv`
+    // );
+
+    // patching data
+    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx5ia4JnREveN2jO6_7Deqoh43vA1iUriJLjSj1RWhWr0bCazEW0Lg5cjZ5KOBoecVR/exec";
+    // Create list of CSV files
+    const csvFiles = Array.from({ length: 12}, (_, i) =>
+      `./data_final/scenarios_utterance_production_free_response_format_shuffled_${i}.csv`
+    );
+
+    function jsonp(url) {
+  console.log("Making JSONP request to:", url);
+  
+  return new Promise((resolve, reject) => {
+    const callbackName = 'jsonp_' + Date.now();
+    console.log("Created callback name:", callbackName);
+
+    window[callbackName] = function(data) {
+      console.log("Received JSONP response:", data);
+      delete window[callbackName];
+      document.head.removeChild(script);
+      resolve(data);
+    };
+
+    const script = document.createElement('script');
+    const fullUrl = `${url}${url.includes('?') ? '&' : '?'}callback=${callbackName}`;
+    script.src = fullUrl;
+    console.log("Full URL:", fullUrl);
+
+    script.onerror = (error) => {
+      console.error("Script load error:", error);
+      delete window[callbackName];
+      document.head.removeChild(script);
+      reject(new Error('Script load failed'));
+    };
+
+    document.head.appendChild(script);
+  });
+}
+
+async function getNextCSVFile() {
+  try {
+    // Check localStorage first
+    const storedCSV = localStorage.getItem('assignedCSV');
+    if (storedCSV) {
+      console.log("Using stored CSV:", storedCSV);
+      return storedCSV;
+    }
+
+    console.log("Requesting new CSV assignment...");
+    const response = await jsonp(GOOGLE_SCRIPT_URL);
+    console.log("JSONP response received:", response);
+
+    if (response && typeof response.index === 'number') {
+      const index = response.index % csvFiles.length;
+      const csvFile = csvFiles[index];
+      localStorage.setItem('assignedCSV', csvFile);
+      console.log("Assigned CSV:", csvFile);
+      return csvFile;
+    } else {
+      throw new Error('Invalid response format');
+    }
+  } catch (error) {
+    console.error("Error in CSV assignment:", error);
+    // Fallback to timestamp-based assignment
+    const timestamp = Date.now();
+    const index = timestamp % csvFiles.length;
+    const csvFile = csvFiles[index];
+    localStorage.setItem('assignedCSV', csvFile);
+    console.log("Fallback CSV assigned:", csvFile);
+    return csvFile;
+  }
+}
+
+    async function fetchAndParseCSV(csvUrl) {
+      const response = await fetch(csvUrl);
+      const csvText = await response.text();
+      return new Promise((resolve) => {
+        Papa.parse(csvText, {
+          header: false,
+          skipEmptyLines: true,
+          complete: function(results) {
+            const scenarios = results.data.map(row => row[0]);
+            resolve(scenarios);
+          }
+        });
+      });
+    }
+
+    function renderHearts(rating) {
+      let heartsHTML = '<div class="hearts-container">';
+      for (let i = 0; i < 3; i++) {
+        heartsHTML += `<div class="heart ${i < rating ? 'filled' : ''}"></div>`;
+      }
+      heartsHTML += '</div>';
+      return heartsHTML;
+    }
+
+    async function startExperiment() {
+      const selectedCSV = await getNextCSVFile();
+      console.log("Using CSV file:", selectedCSV);
+
+      const all_scenarios = await fetchAndParseCSV(selectedCSV);
+      // const shuffled_scenarios = all_scenarios.sort(() => Math.random() - 0.5);
+      const shuffled_scenarios = all_scenarios;
+
+      const jsPsych = initJsPsych({
+  show_progress_bar: true, // Enable the progress bar
+  auto_update_progress_bar: true, // Automatically update the progress bar as the experiment progresses
+  on_finish: function() {
+    console.log("Experiment finished");
+  }
+});
+
+      const welcome_page = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `
+          <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
+          <p style="text-align: center;"><b><i>Welcome to the experiment!</i></b></p>
+          <p>In this experiment, you will read several scenarios and then we will ask you some questions about those scenarios.</p>
+          <p>The experiment is expected to take about 10 minutes to complete, including the time it takes to read instructions and answer several warm-up questions.</p>
+          </div>
+          `,
+        choices: ['Begin Experiment']
+      };
+      const consent_page = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+        <div style="max-width: 1000px; margin: 0 auto; text-align: left;">
+            <h2 style="text-align: center;">Consent to Participate</h2>
+            
+            <p>By completing this study, you are participating in research being performed by cognitive scientists in the Stanford University Department of Psychology. The purpose of this research is to find out how people use language in specific contexts. You must be at least 18 years old to participate. There are neither specific benefits nor anticipated risks associated with participation in this study. Your participation in this study is completely voluntary and you can withdraw at any time by simply exiting the study. You may decline to answer any or all of the following questions. Choosing not to participate or withdrawing will result in no penalty. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you, and any information you provide will not be shared in association with any personally identifying information.</p>
+
+            <p>If you have questions about this research, please contact the researchers by sending an email to <a href="mailto:hjzhao@cs.stanford.edu" style="color: blue;">hjzhao@cs.stanford.edu</a>. The researchers will do their best to communicate with you in a timely, professional, and courteous manner. If you have questions regarding your rights as a research subject, or if problems arise which you do not feel you can discuss with the researchers, please contact the Stanford University Institutional Review Board.</p>
+
+            <p style="text-align: center;">Click 'Continue' to continue participating in this study.</p>
+        </div>
+    `,
+    choices: ['Continue'],
+    button_html: '<button class="jspsych-btn" style="margin: 0 auto; display: block;">%choice%</button>'
+};
+
+const note_page = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+        <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+            <p style="text-align: center;"><b><i>Important Notes</i></b></p>
+            
+            <p>Please be patient if the experiment loads slowly :)</p>
+
+            <p>Please read the instructions on each page carefully before proceeding to the next page.</p>
+
+            <p>If you encounter any problems or errors, we recommend switching to incognito mode or opening it in another web browser.</p>
+
+            <p>If the problem or error still persists, please send us an email at <a href="mailto:hjzhao@cs.stanford.edu" style="color: blue;">hjzhao@cs.stanford.edu</a>, and we will make sure you are compensated for your time!</p>
+        </div>
+    `,
+    choices: ['Next']
+};
+
+const fullscreen_trial = {
+    type: jsPsychFullscreen,
+    fullscreen_mode: true,
+    message: `
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p><b>Full-Screen Mode Required</b></p>
+            <p>To ensure the best experience, this experiment will switch to full-screen mode.</p>
+            <p>Click "Continue" to proceed.</p>
+        </div>
+    `,
+    button_label: "Continue"
+};
+
+const instruction_page = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+        <div style="max-width: 900px; margin: 0 auto; text-align: left;">
+          <p style="text-align: center;"><b><i>Now let's get started!</i></b></p>
+          
+          <p>On the following pages, you will be presented with 3 warm-up scenarios and 8 experiment scenarios.</p>
+          
+          <p>In each scenario, people's feelings are represented on a scale of 0 to 3 hearts:</p>
+          
+          <ul>
+              <li>0 hearts <span style="display: inline-block; vertical-align: middle;">${renderHearts(0)}</span> is the lowest rating</li>
+              <li>3 hearts <span style="display: inline-block; vertical-align: middle;">${renderHearts(3)}</span> is the highest rating</li>
+          </ul>
+          
+          <p>Please read the scenarios carefully and answer the questions honestly.</p>
+          
+          <p style="text-align: center; margin-top: 30px;">Click 'Next' to start the experiment.</p>
+        </div>
+    `,
+    choices: ['Next']
+};
+
+const transition_page_warm_up = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+        <div style="max-width: 1000px; margin: 50px auto; text-align: center; line-height: 1.6;">
+            <p style="font-size: 18px;">Before we jump into the main study, we'll start with 3 warm-up questions.</p>
+            <p style="font-size: 18px;">Please <strong>simply match</strong> the visual-heart rating <strong>with</strong> the corresponding textual rating from one of the four options.</p>
+        </div>
+    `,
+    choices: ['Continue'],
+    // button_html: '<button class="jspsych-btn" style="margin: 20px auto; display: block; font-size: 16px; padding: 10px 20px;">%choice%</button>'
+};
+
+const trials = {
+  timeline: [{
+    type: jsPsychSurveyMultiChoice,
+    preamble: function() {
+      const data = jsPsych.timelineVariable('question');
+      const ratingMatch = data.prompt.match(/(\d) out of 3 hearts/);
+      const rating = ratingMatch ? parseInt(ratingMatch[1]) : 0;
+      
+      return `<div style="text-align: center; max-width: 600px; margin: 0 auto;">
+        ${data.prompt.replace(/Imagine that Tom saw a presentation/, 'Imagine that Tom saw a presentation.<br><br>')
+                     .replace(/\d out of 3 hearts/, renderHearts(rating)+"<br>")
+                     .replace(/What did Tom feel\?/, "What did Tom feel?<br>")
+                     .replace(/A. 0 hearts/, '<strong>A.</strong> 0 hearts<br>')
+                     .replace(/B. 1 heart /, '<strong>B.</strong> 1 heart <br>')
+                     .replace(/C. 2 hearts/, '<strong>C.</strong> 2 hearts<br>')
+                     .replace(/D. 3 hearts/, '<strong>D.</strong> 3 hearts')
+                    }
+      </div>`;
+    },
+    questions: [
+      {
+        prompt: "",
+        options: ["A", "B", "C", "D"],
+        required: true,
+        horizontal: true
+      }
+    ],
+    button_label: 'Next',
+
+    on_finish: function(data) {
+      data.response = data.response.Q0;
+      data.stimulus = jsPsych.timelineVariable('question').prompt;
+    }
+  }],
+  timeline_variables: shuffled_scenarios.slice(0, 3).map(scenario => ({
+    question: {
+      prompt: scenario
+    }
+  }))
+};
+
+    const main_study_transition = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `
+            <div style="max-width: 1200px; margin: 0 auto; text-align: left;">
+                <p>Great! Now let's begin the main study! </p>
+                <p>You will read 8 different scenarios and answer some questions about them. </p>
+                <p><b>Please keep your responses as short and concise as possible and ensure they are complete sentences with proper punctuation and start with a capital letter.</b></p>
+                <p><b>When responding, imagine yourself in the scenario and please do NOT give third-person responses.</b></p>
+                <p>Please think carefully with your responses, you won't be able to go back to your previous questions.</p>
+                <p>Remember, there are no right or wrong answers.</p>
+                <p>Click 'Next' to continue.</p>
+            </div>
+        `,
+        choices: ['Next']
+    };
+
+
+
+const remaining_trials = {
+    timeline: [{
+        type: jsPsychHtmlButtonResponse,
+        stimulus: function() {
+            const question = jsPsych.timelineVariable('question').prompt;
+            const ratingMatch = question.match(/(\d) out of 3 hearts/);
+            const rating = ratingMatch ? parseInt(ratingMatch[1]) : 0;
+
+            return `
+                <div style="text-align: left; max-width: 600px; margin: 0 auto;">
+                    ${question.replace(/Scenario:/, '<b>Scenario:</b><br>')
+                             .replace(/Rating:/, '<br><br><b>Rating:</b><br>')
+                             .replace(/\d out of 3 hearts/, `${rating} out of 3 hearts ${renderHearts(rating)}`)
+                             .replace(/Question:/, '<br><b>Question:</b><br>')
+                            .replace(/(If .*? wanted to BOTH make .*? feel good AND give accurate and informative feedback,)/, '<strong>$1</strong>')
+                            .replace(/(If .*? wanted to give as accurate and informative feedback as possible,)/, '<strong>$1</strong>')
+                            .replace(/(If .*? wanted to make .*? feel good,)/, '<strong>$1</strong>')
+                            .replace(/(If .*? wanted to BOTH make .*? feel good AND share .*? honest thoughts,)/, '<strong>$1</strong>')
+                            .replace(/(If .*? wanted to share .*? honest thoughts, )/, '<strong>$1</strong>')
+                            .replace(/(If .*? wanted to make .*? feel good,)/, '<strong>$1</strong>')
+                            .replace(/actually/, '<strong>actually</strong>')}
+            
+                </div>
+                <form id="response-form">
+                    <div style="margin-top: 20px;">
+                        <textarea 
+                            id="response" 
+                            placeholder="Enter your response here" 
+                            rows="1" 
+                            cols="50" 
+                            required
+                            style="font-size: 16px; line-height: 1.5;"
+                        ></textarea>
+                    </div>
+                    <p id="paste-warning" style="color: red; display: none; font-weight: bold;">
+                        Pasting is not allowed. Please type your response manually.
+                    </p>
+                    <button type="submit" id="next-button" style="margin-top: 20px; padding: 8px 12px; font-size: 14px; border-radius: 6px;">Next</button>
+                </form>`;
+        },
+        choices: [], // Disable jsPsych default button
+        on_load: function() {
+            const textarea = document.getElementById('response');
+            const warning = document.getElementById('paste-warning');
+
+            // Prevent pasting and show the warning message
+            textarea.addEventListener('paste', function(event) {
+                event.preventDefault(); // Prevent paste action
+                warning.style.display = 'block'; // Show warning message
+            });
+
+            // Handle form submission
+            const form = document.getElementById('response-form');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent default form action
+                const response = textarea.value.trim();
+                if (!response) {
+                    textarea.setCustomValidity('Please fill out this field.');
+                    textarea.reportValidity();
+                } else {
+                    textarea.setCustomValidity('');
+                    jsPsych.finishTrial({ response }); // Pass response to trial data
+                }
+            });
+        },
+        on_finish: function(data) {
+            data.response = data.response; // Response captured in `on_load`'s `finishTrial`
+            data.stimulus = jsPsych.timelineVariable('question').prompt; // Save original prompt as stimulus
+        },
+    }],
+    timeline_variables: shuffled_scenarios.slice(3).map(scenario => ({
+        question: {
+            prompt: scenario
+        },
+    })),
+};
+
+// adding a feedback page asking a question about:  Did you experience any difficulties while completing this survey? and please feel free to provide any additional feedback or comments.
+const feedback_page = {
+    type: jsPsychSurveyText,
+    questions: [
+        {
+            prompt: "Did you experience any difficulties while completing this survey?",
+            placeholder: "If not, please type 'N/A'.",
+            rows: 3,
+            columns: 50,
+            required: false
+        },
+        {
+            prompt: "Please feel free to provide any additional feedback or comments.",
+            placeholder: "If not, please type 'N/A'.",
+            rows: 3,
+            columns: 50,
+            required: false
+        }
+    ],
+    button_label: "Submit Feedback"
+};
+
+      const save_data = {
+    type: jsPsychPipe,
+    action: "save",
+    experiment_id: "odX6wgoMZaHY", // Replace with your experiment ID
+    filename: (() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const prolificID = urlParams.get("PROLIFIC_PID");
+        const uniqueSuffix = new Date().toISOString().replace(/[:.-]/g, "_"); // Add timestamp
+        const csvFileName = selectedCSV.split('/').pop().replace('.csv', ''); // Extract base name of CSV file
+
+        return prolificID
+            ? `participant_${prolificID}_${csvFileName}_${uniqueSuffix}.csv`
+            : `participant_${jsPsych.randomization.randomID(10)}_${csvFileName}_${uniqueSuffix}.csv`;
+    })(),
+    data_string: () => jsPsych.data.get().csv()
+};
+
+      const thank_you_page = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `
+          <p>Thank you for participating in this experiment!</p>
+          <p>We appreciate your help, and your responses have been successfully recorded.</p>
+          <p>You may now close this window.</p>
+        `,
+        choices: ['Finish'],
+        on_finish: function() {
+          alert("You can now close this window.");
+        }
+      };
+
+      const timeline = [];
+      timeline.push(welcome_page);
+      timeline.push(consent_page);  // Add the consent page here
+      timeline.push(note_page);  // Add the note page here
+      // timeline.push(start_experiment_transition);  // Add the new transition page here
+      timeline.push(fullscreen_trial);
+      timeline.push(instruction_page);
+      timeline.push(transition_page_warm_up);  // Add the transition page here
+      timeline.push(trials);
+      timeline.push(main_study_transition);  // transition to main study
+      timeline.push(remaining_trials);
+      timeline.push(feedback_page);
+      timeline.push(save_data);
+      timeline.push(thank_you_page);
+
+      jsPsych.run(timeline);
+    }
+
+    startExperiment();
+  </script>
+</html>
