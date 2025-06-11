@@ -1,0 +1,6 @@
+In the scenario, a person gave some performance and asked for another person's opinion on the performance.
+The person's feelings in the scenario are shown on a scale of 0 to 3 hearts.
+0 heart, the lowest rating, means the person does not like the performance at all and 3 hearts, the highest rating, means the person likes it a lot.
+Please read the scenario carefully and answer the question in a complete sentence.
+Please keep your responses as short and concise as possible!
+Please only give the sentence-response without any other words!
