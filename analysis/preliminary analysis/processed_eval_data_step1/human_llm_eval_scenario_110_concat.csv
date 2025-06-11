@@ -1,0 +1,196 @@
+stimulus,response
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+2 out of 3 hearts
+Question:
+If Nathan wanted to make Patrick feel good, but not necessarily give informative feedback,
+What would Nathan be most likely to say?
+A.  The review was great.
+B. It was a solid effort for a review.",A
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+2 out of 3 hearts
+Question:
+If Nathan wanted to make Patrick feel good, but not necessarily give informative feedback,
+What would Nathan be most likely to say?
+A. Your review was very nice ! I can tell you put a lot of thought into it.
+B. It's a decent review. I think if you add a few more quotes and some more specific details about how the book resonated with you that it'd be even better.",A
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+2 out of 3 hearts
+Question:
+If Nathan wanted to make Patrick feel good, but not necessarily give informative feedback,
+What would Nathan be most likely to say?
+A. The review was positive.
+B. I felt the review was great but could have been better.",A
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+2 out of 3 hearts
+Question:
+If Nathan wanted to make Patrick feel good, but not necessarily give informative feedback,
+What would Nathan be most likely to say?
+A. Your review was really well done!
+B. Your review was quite good, with clear points and solid analysis, though there's still some room to add more depth to your arguments.",A
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+2 out of 3 hearts
+Question:
+If Nathan wanted to make Patrick feel good, but not necessarily give informative feedback,
+What would Nathan be most likely to say?
+A. Your review was really good!
+B. Your review was pretty good!",B
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+1 out of 3 hearts
+Question:
+If George wanted to give as accurate and informative feedback as possible, but not necessarily make Henry feel good,
+What would George be most likely to say?
+A.  I think your app has some good features and a nice interface, but it still needs some work on its functionality and user experience to be truly effective.
+B. Your app acme across as ok, but I have a advice to help you bring it up to speed.",A
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+1 out of 3 hearts
+Question:
+If George wanted to give as accurate and informative feedback as possible, but not necessarily make Henry feel good,
+What would George be most likely to say?
+A. The app has potential, but the interface is clunky, and some features ain't intuitive. Focus on improving user experience.
+B. It was good.",A
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+1 out of 3 hearts
+Question:
+If George wanted to give as accurate and informative feedback as possible, but not necessarily make Henry feel good,
+What would George be most likely to say?
+A. It's the best new thing in silicon valley, so work harder and get on forbes no time for laughs and giggles.
+B. The app needs improvements.",B
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+1 out of 3 hearts
+Question:
+If George wanted to give as accurate and informative feedback as possible, but not necessarily make Henry feel good,
+What would George be most likely to say?
+A. The app has potential but needs significant improvements in its design and functionality.
+B. It's a good start and shows potential!",A
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+1 out of 3 hearts
+Question:
+If George wanted to give as accurate and informative feedback as possible, but not necessarily make Henry feel good,
+What would George be most likely to say?
+A. Your app has potential, but it needs significant improvements to be truly effective.
+B. Your app is excellent and very well-designed.",A
+"Scenario:
+Imagine that Diana gave a monologue during a school play, but she didn't know how good her performance went. Diana approached Ann, who knows a lot about giving monologues, and asked ""How was my monologue?""
+Rating:
+Here's how Ann actually felt about Diana's monologue:
+0 out of 3 hearts
+Question:
+If Ann wanted to BOTH make Diana feel good AND give accurate and informative feedback,
+What would Ann be most likely to say?
+A.  I thought your performance had some great elements, but there were a few places where you could work on your tone and pacing to really bring the monologue to life!
+B. Your monologue seemed like you put time into rehearsing, but I have a few constructive feed backs for you.",A
+"Scenario:
+Imagine that Diana gave a monologue during a school play, but she didn't know how good her performance went. Diana approached Ann, who knows a lot about giving monologues, and asked ""How was my monologue?""
+Rating:
+Here's how Ann actually felt about Diana's monologue:
+0 out of 3 hearts
+Question:
+If Ann wanted to BOTH make Diana feel good AND give accurate and informative feedback,
+What would Ann be most likely to say?
+A. You were brave to preform, which is amazing! With my practice on voice projection and emotions, your monologue will have an even stronger impact.
+B. There were a lot of aspects that negatively impacted your performance but I'd be happy to help advise you how to improve.",A
+"Scenario:
+Imagine that Diana gave a monologue during a school play, but she didn't know how good her performance went. Diana approached Ann, who knows a lot about giving monologues, and asked ""How was my monologue?""
+Rating:
+Here's how Ann actually felt about Diana's monologue:
+0 out of 3 hearts
+Question:
+If Ann wanted to BOTH make Diana feel good AND give accurate and informative feedback,
+What would Ann be most likely to say?
+A. It was good, I can tell you practiced a lot.
+B. The monologue could have been preformed better next time.",B
+"Scenario:
+Imagine that Diana gave a monologue during a school play, but she didn't know how good her performance went. Diana approached Ann, who knows a lot about giving monologues, and asked ""How was my monologue?""
+Rating:
+Here's how Ann actually felt about Diana's monologue:
+0 out of 3 hearts
+Question:
+If Ann wanted to BOTH make Diana feel good AND give accurate and informative feedback,
+What would Ann be most likely to say?
+A. While your stage presence showed potential, focusing on clearer enunciation and more emotional expression would really strengthen your monologue delivery.
+B. You were so brave to get up there and perform in front of everyone!",A
+"Scenario:
+Imagine that Diana gave a monologue during a school play, but she didn't know how good her performance went. Diana approached Ann, who knows a lot about giving monologues, and asked ""How was my monologue?""
+Rating:
+Here's how Ann actually felt about Diana's monologue:
+0 out of 3 hearts
+Question:
+If Ann wanted to BOTH make Diana feel good AND give accurate and informative feedback,
+What would Ann be most likely to say?
+A. Your effort was great, but I think with some practice on delivery and expression, it could be even better!
+B. Your monologue had some good moments, and with a bit more practice, it could be even better!",A
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+3 out of 3 hearts
+Question:
+What would Wendy be most likely to say?
+A.  I thought it was amazing, you played incredibly well!
+B. You're performance was amazing!",B
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+3 out of 3 hearts
+Question:
+What would Wendy be most likely to say?
+A. Your performance was amazing! You played beautifully with so much emotions. I loved it.
+B. It was fantastic, you did really well.",A
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+3 out of 3 hearts
+Question:
+What would Wendy be most likely to say?
+A. There were good parts, and parts that you. Can work on.
+B. Emma, your performance was amazing.",B
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+3 out of 3 hearts
+Question:
+What would Wendy be most likely to say?
+A. Your piano performance was absolutely beautiful and flawless!
+B. Your performance was excellent, with flawless technique and beautiful expression throughout the piece.",A
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+3 out of 3 hearts
+Question:
+What would Wendy be most likely to say?
+A. Your performance was amazing!
+B. Your performance was okay, but there's room for improvement.",A

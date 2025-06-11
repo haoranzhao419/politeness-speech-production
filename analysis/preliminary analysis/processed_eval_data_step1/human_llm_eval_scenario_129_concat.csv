@@ -1,0 +1,196 @@
+stimulus,response
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+2 out of 3 hearts
+Question:
+What would John be most likely to say?
+A. You did a good job bob, nice work.
+B. Your presentation was quite good, though there's still some room for improvement.",B
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+2 out of 3 hearts
+Question:
+What would John be most likely to say?
+A. Good presentation, bob!
+B. I think your presentation was pretty well done! I think you seemed a little nervous during some of it, but the more practice you get, the better you'll get!",B
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+2 out of 3 hearts
+Question:
+What would John be most likely to say?
+A. I enjoyed the presentation and thought it was informative. Great job.
+B. I think there is more room for improvement.",B
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+2 out of 3 hearts
+Question:
+What would John be most likely to say?
+A. Your presentation was good, and with a few small improvements, it could be even better!
+B. Your presentation was good, but there's room for improvement.",A
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+2 out of 3 hearts
+Question:
+What would John be most likely to say?
+A.  I thought it could be improved in several areas!
+B.  I thought it was pretty good!",B
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+1 out of 3 hearts
+Question:
+If Wendy wanted to make Emma feel good, but not necessarily give informative feedback,
+What would Wendy be most likely to say?
+A. I'm so grateful I could come watch you play.
+B. You looked so confident and elegant on stage!",A
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+1 out of 3 hearts
+Question:
+If Wendy wanted to make Emma feel good, but not necessarily give informative feedback,
+What would Wendy be most likely to say?
+A. Overall, your performance is quite good given your current foundation, but I do need to point out some specific issues that exist.
+B. You did really well, emma! It was like music to my ears!! I hope to be as good as you someday!",B
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+1 out of 3 hearts
+Question:
+If Wendy wanted to make Emma feel good, but not necessarily give informative feedback,
+What would Wendy be most likely to say?
+A. You sounded good and I could tell you put a lot of time and practice into the performance.
+B. You did all right. Better than those who can't play.",A
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+1 out of 3 hearts
+Question:
+If Wendy wanted to make Emma feel good, but not necessarily give informative feedback,
+What would Wendy be most likely to say?
+A. Your performance was okay, but there's room for improvement.
+B. Your performance was nice, Emma!",B
+"Scenario:
+Imagine that Emma performed at a piano recital, but she didn't know how good her playing sounded. Emma approached Wendy, who knows a lot about playing piano, and asked ""How was my performance?""
+Rating:
+Here's how Wendy actually felt about Emma's performance:
+1 out of 3 hearts
+Question:
+If Wendy wanted to make Emma feel good, but not necessarily give informative feedback,
+What would Wendy be most likely to say?
+A.  I thought it was amazing and you did a great job!
+B.  Your performance was great.",B
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+0 out of 3 hearts
+Question:
+If Nathan wanted to give as accurate and informative feedback as possible, but not necessarily make Patrick feel good,
+What would Nathan be most likely to say?
+A. Thanks for asking, let's go through it together.
+B. Your review needs significant improvement as it lacks proper analysis and structure.",B
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+0 out of 3 hearts
+Question:
+If Nathan wanted to give as accurate and informative feedback as possible, but not necessarily make Patrick feel good,
+What would Nathan be most likely to say?
+A. The review was great!
+B. I think next time you write a review, you need to be more specific on what you do or do not like. I thought it was too vague and not very helpful for the author.",B
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+0 out of 3 hearts
+Question:
+If Nathan wanted to give as accurate and informative feedback as possible, but not necessarily make Patrick feel good,
+What would Nathan be most likely to say?
+A. The review could be strengthened by writing about x, y, and z.
+B. Great! I really loved it.",A
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+0 out of 3 hearts
+Question:
+If Nathan wanted to give as accurate and informative feedback as possible, but not necessarily make Patrick feel good,
+What would Nathan be most likely to say?
+A. Your effort is appreciated, but there are areas where you can improve to make your review even better.
+B. Your review wasn't good and needs significant improvement.",B
+"Scenario:
+Imagine that Patrick wrote a review for a book, but he didn't know how good his review was. Patrick approached Nathan, who knows a lot about writing reviews, and asked ""How was my review?""
+Rating:
+Here's how Nathan actually felt about Patrick's review:
+0 out of 3 hearts
+Question:
+If Nathan wanted to give as accurate and informative feedback as possible, but not necessarily make Patrick feel good,
+What would Nathan be most likely to say?
+A.  I thought there were some okay points in your review but it could use a lot of improvement.
+B.  I thought your review was poorly written and had significant areas that needed improvement.",B
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+3 out of 3 hearts
+Question:
+If George wanted to BOTH make Henry feel good AND give accurate and informative feedback,
+What would George be most likely to say?
+A. You did a great job, it works great and there weren't any bugs.
+B. Your app is excellent - the interface is intuitive and the features work seamlessly together!",B
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+3 out of 3 hearts
+Question:
+If George wanted to BOTH make Henry feel good AND give accurate and informative feedback,
+What would George be most likely to say?
+A. This is a solid and complete app.
+B. Your mobile app is excellent, henry! It's super easy to navigate through and I think a lot of people will enjoy it! Keep doing what you're doing and just make little improvements as you learn more!",B
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+3 out of 3 hearts
+Question:
+If George wanted to BOTH make Henry feel good AND give accurate and informative feedback,
+What would George be most likely to say?
+A. It was a great app and one I would enjoy using and telling my friends about it.
+B. The app looks good and is functional, but there's a few ways I think you could make it better. Right now every other app does the same thing better.",A
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+3 out of 3 hearts
+Question:
+If George wanted to BOTH make Henry feel good AND give accurate and informative feedback,
+What would George be most likely to say?
+A. Your app is amazing, I really like it a lot!
+B. Your app is amazing, Henry! It's well-designed and very impressive, but you could consider adding [specific suggestion] to make it even better.",A
+"Scenario:
+Imagine that Henry designed a mobile app, but he didn't know how good it was. Henry approached George, who knows a lot about mobile apps, and asked ""How was my app?""
+Rating:
+Here's how George actually felt about Henry's app:
+3 out of 3 hearts
+Question:
+If George wanted to BOTH make Henry feel good AND give accurate and informative feedback,
+What would George be most likely to say?
+A.  I think it has some really interesting ideas, but there are definitely some things we could work on to make it even better, like maybe reorganizing the layout to improve user experience and implementing some additional features to make it more engaging.
+B.  The app was of excellent design and also suggest potential features for further improvement!",B
