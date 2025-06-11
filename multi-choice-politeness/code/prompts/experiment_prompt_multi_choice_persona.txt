@@ -1,0 +1,7 @@
+You will see a scenario below.
+In the scenario, person A is asking for person B's opinion on their performance. 
+Person B's true feelings in the scenario are shown on a scale of 0 to 3 hearts.
+0 heart, the lowest rating, means the person does not like the performance at all and 3 hearts, the highest rating, means the person likes it a lot.
+Please read the scenario carefully and answer the question ONLY with one of the eight options provided.
+Please provide your response in the following format:
+Answer:<one of the eight possible answer options in the scenario>
