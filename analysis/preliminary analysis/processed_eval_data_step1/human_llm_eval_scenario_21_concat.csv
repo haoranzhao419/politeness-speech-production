@@ -1,0 +1,196 @@
+stimulus,response
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+2 out of 3 hearts
+Question:
+What would Sean be most likely to say?
+A. It's pretty good and that's how you can improve it.
+B. Your song is pretty good - I especially liked the melody.",B
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+2 out of 3 hearts
+Question:
+What would Sean be most likely to say?
+A. It's a pretty good song but needs more practice.
+B. It was good.",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+2 out of 3 hearts
+Question:
+What would Sean be most likely to say?
+A. I enjoyed it, but it wasn't my favorite.
+B. Not good at all.",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+2 out of 3 hearts
+Question:
+What would Sean be most likely to say?
+A. Your song was really good, and with a few tweaks, it could be even better!
+B. Your song was pretty good!",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+2 out of 3 hearts
+Question:
+What would Sean be most likely to say?
+A.  I don't really like it, sorry.
+B.  I really enjoyed it, but I think there's a bit of room for improvement.",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+1 out of 3 hearts
+Question:
+If Kyle wanted to make James feel good, but not necessarily give informative feedback,
+What would Kyle be most likely to say?
+A. It's good but I would go easier on sugar next time.
+B. The cake was pretty good, thanks for sharing it with me!",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+1 out of 3 hearts
+Question:
+If Kyle wanted to make James feel good, but not necessarily give informative feedback,
+What would Kyle be most likely to say?
+A. It wasnt bad, but it could use less icing.
+B. It was pretty good.",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+1 out of 3 hearts
+Question:
+If Kyle wanted to make James feel good, but not necessarily give informative feedback,
+What would Kyle be most likely to say?
+A. The cake was good, but would probably be better with more efforts.
+B. You put a lot of efforts on this cake, keep on experimenting and trying new thing. I can see you have a passion in baking.",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+1 out of 3 hearts
+Question:
+If Kyle wanted to make James feel good, but not necessarily give informative feedback,
+What would Kyle be most likely to say?
+A. Your cake was okay, but it could use improvement in flavor and texture.
+B. Your cake was pretty good!",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+1 out of 3 hearts
+Question:
+If Kyle wanted to make James feel good, but not necessarily give informative feedback,
+What would Kyle be most likely to say?
+A.  The cake tastes absolutely delicious and perfectly baked.
+B.  I think your cake is delicious!",B
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+0 out of 3 hearts
+Question:
+If Karen wanted to give as accurate and informative feedback as possible, but not necessarily make Jenny feel good,
+What would Karen be most likely to say?
+A. I am not sure I liked it.
+B. Your poem needs significant improvement in terms of structure and word choice.",B
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+0 out of 3 hearts
+Question:
+If Karen wanted to give as accurate and informative feedback as possible, but not necessarily make Jenny feel good,
+What would Karen be most likely to say?
+A. Very beautiful in poem.
+B. It could use some work.",B
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+0 out of 3 hearts
+Question:
+If Karen wanted to give as accurate and informative feedback as possible, but not necessarily make Jenny feel good,
+What would Karen be most likely to say?
+A. It truly needs some work.
+B. I didn't really enjoy it.",A
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+0 out of 3 hearts
+Question:
+If Karen wanted to give as accurate and informative feedback as possible, but not necessarily make Jenny feel good,
+What would Karen be most likely to say?
+A. Your poem wasn't really my style, but I appreciate your effort.
+B. Your poem needs significant improvement and didn't resonate with me.",B
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+0 out of 3 hearts
+Question:
+If Karen wanted to give as accurate and informative feedback as possible, but not necessarily make Jenny feel good,
+What would Karen be most likely to say?
+A.  I liked most of it but there's definitely room for improvement in a few places.
+B.  Your poem needed a lot of work because it lacked originality and substance.",B
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+3 out of 3 hearts
+Question:
+If Hailey wanted to BOTH make Mika feel good AND give accurate and informative feedback,
+What would Hailey be most likely to say?
+A. I absolutely loved it especially the way it tasted.
+B. Your cookies are absolutely delicious - they have the perfect balance of sweetness and a wonderfully chewy texture!",B
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+3 out of 3 hearts
+Question:
+If Hailey wanted to BOTH make Mika feel good AND give accurate and informative feedback,
+What would Hailey be most likely to say?
+A. Your cookie tasted amazing, great job!
+B. I loved it!",A
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+3 out of 3 hearts
+Question:
+If Hailey wanted to BOTH make Mika feel good AND give accurate and informative feedback,
+What would Hailey be most likely to say?
+A. I loved the cookies! Can I have a few more?
+B. Your cookie was really good. The flavor was great and nice but it could be even more chewiness.",A
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+3 out of 3 hearts
+Question:
+If Hailey wanted to BOTH make Mika feel good AND give accurate and informative feedback,
+What would Hailey be most likely to say?
+A. Your cookie tasted amazing!
+B. Your cookie was absolutely delicious, perfectly baked, and had great flavor!",B
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+3 out of 3 hearts
+Question:
+If Hailey wanted to BOTH make Mika feel good AND give accurate and informative feedback,
+What would Hailey be most likely to say?
+A.  I think your cookie is delicious, but I can tell that you were probably going for a lighter texture and a more delicate flavor, so we could work on tweaking the recipe to get it to where you want it to be.
+B.  I loved the flavors in your cookie, the combination of ingredients is creative and works really well, and the texture is perfect!",B

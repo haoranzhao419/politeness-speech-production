@@ -1,0 +1,196 @@
+stimulus,response
+"Scenario:
+Imagine that Tom played a cello solo part at a concert, but he didn't know how good his playing sounded. Tom approached Bill, who knows a lot about playing cello, and asked ""How was my solo?""
+Rating:
+Here's how Bill actually felt about Tom's solo:
+2 out of 3 hearts
+Question:
+If Bill wanted to make Tom feel good, but not necessarily give informative feedback,
+What would Bill be most likely to say?
+A. It was good man.
+B. Your solo was really good, Tom!",B
+"Scenario:
+Imagine that Tom played a cello solo part at a concert, but he didn't know how good his playing sounded. Tom approached Bill, who knows a lot about playing cello, and asked ""How was my solo?""
+Rating:
+Here's how Bill actually felt about Tom's solo:
+2 out of 3 hearts
+Question:
+If Bill wanted to make Tom feel good, but not necessarily give informative feedback,
+What would Bill be most likely to say?
+A. You played well and the tune was not bad.
+B. It sounded like all the other cellos I have heard.",A
+"Scenario:
+Imagine that Tom played a cello solo part at a concert, but he didn't know how good his playing sounded. Tom approached Bill, who knows a lot about playing cello, and asked ""How was my solo?""
+Rating:
+Here's how Bill actually felt about Tom's solo:
+2 out of 3 hearts
+Question:
+If Bill wanted to make Tom feel good, but not necessarily give informative feedback,
+What would Bill be most likely to say?
+A. I think you played the cello solo very well tom, you must keep up the practice and you will get even better.
+B. Your solo was very inspiring and I enjoyed listening to it.",B
+"Scenario:
+Imagine that Tom played a cello solo part at a concert, but he didn't know how good his playing sounded. Tom approached Bill, who knows a lot about playing cello, and asked ""How was my solo?""
+Rating:
+Here's how Bill actually felt about Tom's solo:
+2 out of 3 hearts
+Question:
+If Bill wanted to make Tom feel good, but not necessarily give informative feedback,
+What would Bill be most likely to say?
+A.  I liked it, but it could use a little more feeling and emotion in the performance.
+B.  I think you did a fantastic job on that solo!",B
+"Scenario:
+Imagine that Tom played a cello solo part at a concert, but he didn't know how good his playing sounded. Tom approached Bill, who knows a lot about playing cello, and asked ""How was my solo?""
+Rating:
+Here's how Bill actually felt about Tom's solo:
+2 out of 3 hearts
+Question:
+If Bill wanted to make Tom feel good, but not necessarily give informative feedback,
+What would Bill be most likely to say?
+A. You looked really confident up there on stage!
+B. That was really wonderful, Tom - you did a great job!",B
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+1 out of 3 hearts
+Question:
+If Lucy wanted to give as accurate and informative feedback as possible, but not necessarily make Sarah feel good,
+What would Lucy be most likely to say?
+A. It had a little room for improvement but it was good.
+B. I think your movie had some good ideas, but it could use improvement in several areas.",B
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+1 out of 3 hearts
+Question:
+If Lucy wanted to give as accurate and informative feedback as possible, but not necessarily make Sarah feel good,
+What would Lucy be most likely to say?
+A. It's ok.
+B. I would like to see how it would have ended with a different ending.",B
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+1 out of 3 hearts
+Question:
+If Lucy wanted to give as accurate and informative feedback as possible, but not necessarily make Sarah feel good,
+What would Lucy be most likely to say?
+A. Sarah, I think this movie was subpar, there were elements I liked, but overall I don't think it came together very well. I didn't enjoy it. I think you need to change several things about this movie.
+B. The movie was great, everyone did a great job.",A
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+1 out of 3 hearts
+Question:
+If Lucy wanted to give as accurate and informative feedback as possible, but not necessarily make Sarah feel good,
+What would Lucy be most likely to say?
+A.  I loved certain aspects of it, and I think you showed a lot of potential as a filmmaker!
+B.  I thought your movie had some interesting aspects, but overall it was somewhat disappointing and could use significant improvement, especially in the areas of character development and plot cohesion.",B
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+1 out of 3 hearts
+Question:
+If Lucy wanted to give as accurate and informative feedback as possible, but not necessarily make Sarah feel good,
+What would Lucy be most likely to say?
+A. The movie was quite good, with strong elements, though there's still some room for improvement.
+B. The movie had some good moments, but overall it needs quite a bit of improvement.",B
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+0 out of 3 hearts
+Question:
+If Sean wanted to BOTH make Chris feel good AND give accurate and informative feedback,
+What would Sean be most likely to say?
+A. It was good for your first composed song. Maybe I can help you.
+B. Your effort is commendable, but there are areas where the song could be improved to make it even better.",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+0 out of 3 hearts
+Question:
+If Sean wanted to BOTH make Chris feel good AND give accurate and informative feedback,
+What would Sean be most likely to say?
+A. That's a really good first try! I want you to keep writing because I know you have so much potential!
+B. The song you picked was great and it seemed like a good fit with the occasion.",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+0 out of 3 hearts
+Question:
+If Sean wanted to BOTH make Chris feel good AND give accurate and informative feedback,
+What would Sean be most likely to say?
+A. Chris, I think it's clear to see you've put thought into composing this song and tried your hardest. That said this one hasn't turned out as you hoped. You have the talent in yourself to do much better. I can help you by suggesting we look at the following things about this composition.
+B. Great job on the beat and tempo, what if you tried to incorporate some bass on this part of the chorus here?",B
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+0 out of 3 hearts
+Question:
+If Sean wanted to BOTH make Chris feel good AND give accurate and informative feedback,
+What would Sean be most likely to say?
+A.  I think your song has some pretty significant issues that need to be worked on to make it sound good.
+B.  I can tell you put a lot of effort into your song, but to be honest, it didn't really resonate with me.",B
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+0 out of 3 hearts
+Question:
+If Sean wanted to BOTH make Chris feel good AND give accurate and informative feedback,
+What would Sean be most likely to say?
+A. Your song has a really nice melody, and with a few small adjustments to the rhythm, it could be even better.
+B. While the song has potential, I think it needs significant work on the melody and structure to really come together.",B
+"Scenario:
+Imagine that Grace gave a tap dance performance, but she didn't know how good her dance looked. Grace approached Heather, who knows a lot about tap dance, and asked ""How was my dance?""
+Rating:
+Here's how Heather actually felt about Grace's dance:
+3 out of 3 hearts
+Question:
+What would Heather be most likely to say?
+A. It was amazing! Great job girl.
+B. Your dance was amazing, I loved it!",B
+"Scenario:
+Imagine that Grace gave a tap dance performance, but she didn't know how good her dance looked. Grace approached Heather, who knows a lot about tap dance, and asked ""How was my dance?""
+Rating:
+Here's how Heather actually felt about Grace's dance:
+3 out of 3 hearts
+Question:
+What would Heather be most likely to say?
+A. You had a good performance.
+B. It was incredible and I loved every seconed of it. You are so talented!",B
+"Scenario:
+Imagine that Grace gave a tap dance performance, but she didn't know how good her dance looked. Grace approached Heather, who knows a lot about tap dance, and asked ""How was my dance?""
+Rating:
+Here's how Heather actually felt about Grace's dance:
+3 out of 3 hearts
+Question:
+What would Heather be most likely to say?
+A. Grace, I think you performed fantastically well, you hit all the right moves at the right time. You should be very proud of yourself, keep up the  good work!
+B. It's good but not perfect.",A
+"Scenario:
+Imagine that Grace gave a tap dance performance, but she didn't know how good her dance looked. Grace approached Heather, who knows a lot about tap dance, and asked ""How was my dance?""
+Rating:
+Here's how Heather actually felt about Grace's dance:
+3 out of 3 hearts
+Question:
+What would Heather be most likely to say?
+A.  I thought your dance was excellent, technically strong and very well performed, with just a few minor areas for improvement to take it to the next level!
+B.  Grace, your dance was amazing, I loved it!",B
+"Scenario:
+Imagine that Grace gave a tap dance performance, but she didn't know how good her dance looked. Grace approached Heather, who knows a lot about tap dance, and asked ""How was my dance?""
+Rating:
+Here's how Heather actually felt about Grace's dance:
+3 out of 3 hearts
+Question:
+What would Heather be most likely to say?
+A. Your dance had some good moments, but there's room for improvement.
+B. Your tap dance performance was absolutely fantastic, Grace!",B

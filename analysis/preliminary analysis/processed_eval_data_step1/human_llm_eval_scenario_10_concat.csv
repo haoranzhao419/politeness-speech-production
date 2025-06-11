@@ -1,0 +1,196 @@
+stimulus,response
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+2 out of 3 hearts
+Question:
+What would Kyle be most likely to say?
+A. Your cake was pretty good!
+B. The cake is pretty good!",A
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+2 out of 3 hearts
+Question:
+What would Kyle be most likely to say?
+A. It tasted pretty good!
+B. You did a great job baking. Your cake was excellent.",A
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+2 out of 3 hearts
+Question:
+What would Kyle be most likely to say?
+A. Hmmmmmm, I don't know Kyle, not sure what you did, but you either added too much of one thing or not enough of another, can't say for sure.
+B. Your cake tasted really good! Next time maybe just add more cream on top?",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+2 out of 3 hearts
+Question:
+What would Kyle be most likely to say?
+A.  I think it's pretty good but could be improved in some areas!
+B.  The cake tastes absolutely delicious and perfectly baked.",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+2 out of 3 hearts
+Question:
+What would Kyle be most likely to say?
+A. The cake was pretty good, I enjoyed the taste.
+B. The cake was okay, but it could use some improvement in flavor and texture.",A
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+1 out of 3 hearts
+Question:
+If Karen wanted to make Jenny feel good, but not necessarily give informative feedback,
+What would Karen be most likely to say?
+A. Your poem was nice, Jenny!
+B. The poem was good. I liked it.",A
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+1 out of 3 hearts
+Question:
+If Karen wanted to make Jenny feel good, but not necessarily give informative feedback,
+What would Karen be most likely to say?
+A. It was good. I liked it.
+B. I didn't really enjoy it.",A
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+1 out of 3 hearts
+Question:
+If Karen wanted to make Jenny feel good, but not necessarily give informative feedback,
+What would Karen be most likely to say?
+A. That was a nice poem, Jenny.
+B. You should really think about getting this published Jenny!",A
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+1 out of 3 hearts
+Question:
+If Karen wanted to make Jenny feel good, but not necessarily give informative feedback,
+What would Karen be most likely to say?
+A.  Your poem was really great and I loved it.
+B.  I liked some parts of your poem, but there were also areas that needed improvement.",B
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+1 out of 3 hearts
+Question:
+If Karen wanted to make Jenny feel good, but not necessarily give informative feedback,
+What would Karen be most likely to say?
+A. I really appreciate you sharing your poem with me, Jenny.
+B. Your poem was absolutely beautiful, I loved every word of it!",A
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+0 out of 3 hearts
+Question:
+If Hailey wanted to give as accurate and informative feedback as possible, but not necessarily make Mika feel good,
+What would Hailey be most likely to say?
+A. Your cookie didn't taste good at all; it might need improvement in flavor or texture.
+B. The cookie didn't taste very good. Definitely needs some more trial and error.",A
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+0 out of 3 hearts
+Question:
+If Hailey wanted to give as accurate and informative feedback as possible, but not necessarily make Mika feel good,
+What would Hailey be most likely to say?
+A. The cookies did not taste very good. They could use more testing.
+B. Your cookies are the best.",A
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+0 out of 3 hearts
+Question:
+If Hailey wanted to give as accurate and informative feedback as possible, but not necessarily make Mika feel good,
+What would Hailey be most likely to say?
+A. It was nice.
+B. You really need to work on perfecting the amount of sugar you put in cookies!",B
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+0 out of 3 hearts
+Question:
+If Hailey wanted to give as accurate and informative feedback as possible, but not necessarily make Mika feel good,
+What would Hailey be most likely to say?
+A.  I thought it was okay, but had some issues with texture and flavor, so I'd love to help you troubleshoot what might have gone wrong.
+B.  I did not like the cookie at all.",A
+"Scenario:
+Imagine that Mika baked some cookies, but she didn't know how good they tasted. Mika approached Hailey, who knows a lot about baking, and asked ""How did my cookie taste?""
+Rating:
+Here's how Hailey actually felt about Mika's cookie:
+0 out of 3 hearts
+Question:
+If Hailey wanted to give as accurate and informative feedback as possible, but not necessarily make Mika feel good,
+What would Hailey be most likely to say?
+A. The cookie was quite dry and flavorless, and needs significant improvement.
+B. The cookie was edible but needs improvement in both taste and texture.",A
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+3 out of 3 hearts
+Question:
+If John wanted to BOTH make Bob feel good AND give accurate and informative feedback,
+What would John be most likely to say?
+A. Your presentation was excellent, very engaging and well-structured!
+B. That was an awesome presentation! Keep it up!",A
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+3 out of 3 hearts
+Question:
+If John wanted to BOTH make Bob feel good AND give accurate and informative feedback,
+What would John be most likely to say?
+A. The presentation was amazing! Keep up what you are doing.
+B. You did so amazingly!",A
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+3 out of 3 hearts
+Question:
+If John wanted to BOTH make Bob feel good AND give accurate and informative feedback,
+What would John be most likely to say?
+A. Great job all around bob, you hit the key points and your presentation was engaging, small room for improvement here and there, but overall good job!
+B. You really did amazingly honestly. No words. You had everyone hooked back there.",A
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+3 out of 3 hearts
+Question:
+If John wanted to BOTH make Bob feel good AND give accurate and informative feedback,
+What would John be most likely to say?
+A.  I think your presentation was excellent, you conveyed your message clearly and stayed within the time frame, but there were a few minor areas where you could improve.
+B.  I thought it was really impressive, but there were a few minor things you could work on to make it even stronger.",A
+"Scenario:
+Imagine that Bob just gave a presentation, but he didn't know how good it was. Bob approached John, who knows a lot about giving presentations, and asked ""How was my presentation?""
+Rating:
+Here's how John actually felt about Bob's presentation:
+3 out of 3 hearts
+Question:
+If John wanted to BOTH make Bob feel good AND give accurate and informative feedback,
+What would John be most likely to say?
+A. Your presentation was excellent - you delivered it with confidence and engaged the audience throughout!
+B. Your presentation had some good points, but there's room for improvement in your delivery and organization.",A

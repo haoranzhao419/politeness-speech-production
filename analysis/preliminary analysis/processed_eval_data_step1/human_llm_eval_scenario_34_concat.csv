@@ -1,0 +1,196 @@
+stimulus,response
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+2 out of 3 hearts
+Question:
+What would Lucy be most likely to say?
+A. I thought your movie was pretty good!
+B. I loved it!",A
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+2 out of 3 hearts
+Question:
+What would Lucy be most likely to say?
+A. The movie has a good plot but bad characters.
+B. I thought it was great and interesting, but the plot gave away the ending without meaning to.",B
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+2 out of 3 hearts
+Question:
+What would Lucy be most likely to say?
+A. Well, it looks like you need to learn more about making a movie. And I would be glad to help you.
+B. The movie was really good! I'm excited to see what you do in the future.",B
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+2 out of 3 hearts
+Question:
+What would Lucy be most likely to say?
+A.  I liked your movie, but there were some things that could be improved.
+B.  I liked your movie a lot, but there were a few places where the editing could be improved.",A
+"Scenario:
+Imagine that Sarah filmed a movie, but she didn't know how good it was. Sarah approached Lucy, who knows a lot about movies, and asked ""How was my movie?""
+Rating:
+Here's how Lucy actually felt about Sarah's movie:
+2 out of 3 hearts
+Question:
+What would Lucy be most likely to say?
+A. I really enjoyed watching your movie, Sarah - it was quite good!
+B. Your movie was absolutely fantastic - I loved everything about it!",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+1 out of 3 hearts
+Question:
+If Sean wanted to make Chris feel good, but not necessarily give informative feedback,
+What would Sean be most likely to say?
+A. Your song was pretty good!
+B. I thought it was good but you could definitely practice more to make it better.",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+1 out of 3 hearts
+Question:
+If Sean wanted to make Chris feel good, but not necessarily give informative feedback,
+What would Sean be most likely to say?
+A. It was a decent song just not my genre.
+B. The components of a good song are there, but needs some more work.",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+1 out of 3 hearts
+Question:
+If Sean wanted to make Chris feel good, but not necessarily give informative feedback,
+What would Sean be most likely to say?
+A. That's a really good first try! I want you to keep writing because I know you have so much potential!
+B. I think you have a good foundation for this song, but there may be some parts that you can improve on. For example, the instrument mixing could be done differently, as some parts overpower others.",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+1 out of 3 hearts
+Question:
+If Sean wanted to make Chris feel good, but not necessarily give informative feedback,
+What would Sean be most likely to say?
+A.  I thought it was a really nice piece.
+B.  I think your song is ok, but there's definitely room for improvement in some areas.",A
+"Scenario:
+Imagine that Chris composed a song, but he didn't know how good it sounded. Chris approached Sean, who knows a lot about composing songs, and asked ""How was my song?""
+Rating:
+Here's how Sean actually felt about Chris's song:
+1 out of 3 hearts
+Question:
+If Sean wanted to make Chris feel good, but not necessarily give informative feedback,
+What would Sean be most likely to say?
+A. It was pretty good - I can tell you put a lot of effort into it!
+B. That was absolutely amazing - I loved every second of it!",A
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+0 out of 3 hearts
+Question:
+If Kyle wanted to give as accurate and informative feedback as possible, but not necessarily make James feel good,
+What would Kyle be most likely to say?
+A. Honestly, I didn't like the taste of your cake at all.
+B. That was the worst cake I ever tried.",A
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+0 out of 3 hearts
+Question:
+If Kyle wanted to give as accurate and informative feedback as possible, but not necessarily make James feel good,
+What would Kyle be most likely to say?
+A. The cupcakes could use a little work.
+B. I didn't like it.",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+0 out of 3 hearts
+Question:
+If Kyle wanted to give as accurate and informative feedback as possible, but not necessarily make James feel good,
+What would Kyle be most likely to say?
+A. This is a great start but I think your cake is slightly lacking in flavor.
+B. I think that you cooked the cake too long and the temperature was wrong, and you didn't mix the ingredients correctly.",B
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+0 out of 3 hearts
+Question:
+If Kyle wanted to give as accurate and informative feedback as possible, but not necessarily make James feel good,
+What would Kyle be most likely to say?
+A.  I think your cake needs a lot of improvement and lacks flavor, to be honest.
+B.  I didn't really like the cake.",A
+"Scenario:
+Imagine that James baked a cake, but he didn't know how good it tasted. James approached Kyle, who knows a lot about baking, and asked ""How did my cake taste?""
+Rating:
+Here's how Kyle actually felt about James's cake:
+0 out of 3 hearts
+Question:
+If Kyle wanted to give as accurate and informative feedback as possible, but not necessarily make James feel good,
+What would Kyle be most likely to say?
+A. The cake was quite dry and flavorless, and needs significant improvement.
+B. The cake was quite good, though there's still some room for improvement.",A
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+3 out of 3 hearts
+Question:
+If Karen wanted to BOTH make Jenny feel good AND give accurate and informative feedback,
+What would Karen be most likely to say?
+A. Your poem was amazing, Jenny! I loved it, and your use of language and imagery was truly impressive.
+B. I loved it!",A
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+3 out of 3 hearts
+Question:
+If Karen wanted to BOTH make Jenny feel good AND give accurate and informative feedback,
+What would Karen be most likely to say?
+A. The poem really sparked my interest and I loved reading it.
+B. It was well-written, had good structure, and followed the rules of a poem.",B
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+3 out of 3 hearts
+Question:
+If Karen wanted to BOTH make Jenny feel good AND give accurate and informative feedback,
+What would Karen be most likely to say?
+A. This is really good and you have a lot of potential! However, I think you could use some work on your grammar and sentence structure.
+B. I thought that the poem was excellent! It all flowed together very nicely and was pleasant to read.",B
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+3 out of 3 hearts
+Question:
+If Karen wanted to BOTH make Jenny feel good AND give accurate and informative feedback,
+What would Karen be most likely to say?
+A.  I loved your poem, it was incredibly well-written and its message was conveyed beautifully, but to take it to the next level, you might try experimenting with a few different rhythms and rhyme schemes to add even more depth and complexity. 
+B.  I thought your poem was excellent!",A
+"Scenario:
+Imagine that Jenny wrote a poem, but she didn't know how good it was. Jenny approached Karen, who knows a lot about poems, and asked ""How was my poem?""
+Rating:
+Here's how Karen actually felt about Jenny's poem:
+3 out of 3 hearts
+Question:
+If Karen wanted to BOTH make Jenny feel good AND give accurate and informative feedback,
+What would Karen be most likely to say?
+A. Your poem was beautifully written, with vivid imagery and flowing rhythm that really moved me.
+B. Your poem shows potential, and with some work on the imagery and flow, it could be even better.",A
