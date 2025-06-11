@@ -1,0 +1,196 @@
+You are an expert in the study of human polite language use, with extensive knowledge of the relevant literature and the various politeness strategies people employ in everyday conversation. 
+
+Please follow my instructions to help extract, annotate, and categorize politeness markers used in the response of each scenario.
+
+In each scenario, Person A asks Person B for their opinion on A’s performance. Person B’s true feelings are represented on a scale of 0 to 3 hearts as the rating, where 0 hearts means they did not like the performance at all, and 3 hearts means they liked it very much. 
+
+In the question, please pay attention to the communicative goal mentioned (either to be informative, to make person A feel good, to do both, or to serve as the default with no specific goal).
+
+Your tasks are to:
+
+1. Read the whole scenario setup carefully, pay attention to the rating and the communicative goal in the question. Then, identify and annotate the specific word(s) or phrase(s) in Person B’s response that function as politeness markers.
+2. Categorize each politeness marker using the comprehensive list of politeness strategies provided below, specifying both the category (positive politeness, negative politeness, off-record, bald-on-record) and the corresponding specific politeness strategy.
+
+Please present your answer in the following format for each politeness marker WITHOUT ANY additional text or explanation:
+
+	Politeness marker: [the specific word(s) or phrase(s)]
+	Politeness strategy:
+
+	1. [category-1 + specific politeness strategy-1]
+	2. [category-2 + specific politeness strategy-2] (if applicable)
+	3. ... (if applicable)
+
+	(Repeat the above for each politeness marker found in the response. Maximum of 3 politeness markers for each response)
+
+Below is the comprehensive list of politeness strategies with examples for each strategy. The politeness markers, e.g., the specific word(s) or phrase(s) used in each strategy’s example, are shown in parentheses.
+
+Please pay attention to the usage of could/would or similar words in the following list.
+
+
+I. Positive Politeness Strategies
+	1.	Gratitude
+		• Example 1: “Thank you so much for your help!” (thank you)
+		• Example 2: “I really appreciate your kindness.” (I really appreciate)
+	2.	Greeting (social approach)
+		• Example 1: “Hi there! Could you help me out?” (Hi there)
+		• Example 2: “Good morning! How are you today?” (Good morning)
+	3.	Positive Lexicon (positive sentiment, optimism)
+		• Example 1: “Wow, that’s wonderful news!” (wonderful)
+		• Example 2: “I’m thrilled about your promotion.” (thrilled)
+	4.	Notice, attend to hearer’s interests, wants, needs
+		• Example 1: “You seem stressed—can I assist?” (You seem stressed)
+		• Example 2: “You must be tired, please take a rest.” (You must be tired)
+	5.	Exaggerate interest, approval, sympathy
+		• Example 1: “That’s the best presentation I’ve ever seen!” (the best)
+		• Example 2: “Your idea is absolutely fantastic!” (absolutely fantastic)
+	6.	Intensify interest in hearer
+		• Example 1: “I traveled across town just to see you!” (just to see you)
+		• Example 2: “I’ve been eagerly waiting to hear your story.” (eagerly waiting)
+	7.	Use in-group identity markers
+		• Example 1: “Hey mate, can you give me a hand?” (mate)
+		• Example 2: “Buddy, I need your advice on something.” (Buddy)
+	8.	Seek agreement
+		• Example 1: “It’s beautiful today, isn’t it?” (isn’t it?)
+		• Example 2: “This solution seems ideal, right?” (right?)
+	9.	Avoid disagreement
+		• Example 1: “Yes, that might work, but also consider…” (that might work)
+		• Example 2: “I see your point, though perhaps…” (I see your point)
+	10.	Presuppose/assert common ground
+		• Example 1: “You know how much we both value honesty.” (we both)
+		• Example 2: “We both know how difficult this can be.” (We both know)
+	11.	Joke
+		• Example 1: “If you fix this bug, I’ll bake you cookies!” (I’ll bake you cookies)
+		• Example 2: “Careful, your brilliance is showing!” (your brilliance is showing)
+	12.	Assert speaker’s knowledge of hearer’s wants
+		• Example 1: “Since I know you like chocolate, here’s a cake.” (Since I know you like chocolate)
+		• Example 2: “Knowing you love adventure, I booked a trip.” (Knowing you love adventure)
+	13.	Offer, promise
+		• Example 1: “I’ll take care of that for you tomorrow.” (I’ll take care)
+		• Example 2: “If you’re busy, I promise to handle it myself.” (I promise)
+	14.	Be optimistic
+		• Example 1: “I’m sure you can easily solve this.” (I’m sure)
+		• Example 2: “You’ll definitely manage to finish this in time.” (You’ll definitely)
+	15.	Include both speaker and hearer (inclusive ‘we’)
+		• Example 1: “Let’s figure this out together.” (Let’s)
+		• Example 2: “Why don’t we start the project now?” (we)
+	16.	Give or ask for reasons
+		• Example 1: “Could you come with me? It’ll be helpful.” (It’ll be helpful)
+		• Example 2: “Why not join the group? You’d enjoy it.” (You’d enjoy it)
+	17.	Assume reciprocity
+		• Example 1: “You helped me last time, now it’s my turn.” (now it’s my turn)
+		• Example 2: “I lent you my notes earlier—can I borrow yours today?” (I lent you my notes earlier)
+	18.	Give gifts to hearer (sympathy, understanding, cooperation)
+		• Example 1: “You’ve been working hard; here’s a small gift.” (here’s a small gift)
+		• Example 2: “Here, take this coffee—you deserve a break.” (you deserve a break)
+
+II. Negative Politeness Strategies
+	1.	Apologizing
+		• Example 1: “Sorry to disturb you, but I have a question.” (Sorry)
+		• Example 2: “I apologize for interrupting your meeting.” (I apologize)
+	2.	Please (sentence-medial polite form)
+		• Example 1: “Could you please send me the document?” (please)
+		• Example 2: “Would you please consider my suggestion?” (please)
+	3.	Be conventionally indirect
+		• Example 1: “Could you possibly close the door?” (Could you possibly)
+		• Example 2: “Would you mind handing me the pen?” (Would you mind)
+		• Example 3: “By the way, do you know the time?” (By the way)
+		• Example 4: “Oh, by the way, did you finish the report?” (Oh, by the way)
+	4.	Question, hedge
+		• Example 1: “Perhaps we could reconsider the deadline?” (Perhaps)
+		• Example 2: “Maybe you might find this helpful?” (Maybe)
+		• Example 3: “I suggest we might consider other options.” (might consider)
+		• Example 4: “I think it’s possibly better this way.” (I think, possibly)
+	5.	Be pessimistic
+		• Example 1: “I don’t suppose you could spare a moment?” (I don’t suppose)
+		• Example 2: “You probably wouldn’t want to help, would you?” (probably wouldn’t want)
+	6.	Minimize the imposition
+		• Example 1: “I just need a quick moment of your time.” (just need a quick moment)
+		• Example 2: “This will take only a second, I promise.” (only a second)
+	7.	Give deference
+		• Example 1: “Professor, could you clarify this point?” (Professor)
+		• Example 2: “Excuse me, sir, may I interrupt?” (Excuse me, sir)
+	8.	Impersonalize speaker and hearer
+		• Example 1: “It seems this task needs attention.” (It seems)
+		• Example 2: “There appears to be a misunderstanding.” (There appears)
+	9.	State the FTA as a general rule
+		• Example 1: “Visitors are requested not to use cell phones.” (Visitors are requested)
+		• Example 2: “Eating is not allowed in the library.” (is not allowed)
+	10.	Nominalize
+		• Example 1: “Your participation is required.” (participation)
+		• Example 2: “Submission of your paper is expected soon.” (Submission)
+	11.	Go on record incurring a debt
+		• Example 1: “I’d greatly appreciate it if you helped me.” (I’d greatly appreciate it)
+		• Example 2: “I’ll owe you one if you can cover my shift.” (I’ll owe you one)
+	12.	Counterfactual modal forms (could/would)
+		• Example 1: “Could you assist me with this?” (Could you)
+		• Example 2: “Would you mind checking this for me?” (Would you mind)
+	13.	Indicative modal forms (can/will)
+		• Example 1: “Can you help me with these files?” (Can you)
+		• Example 2: “Will you be able to come by later?” (Will you)
+
+III. Off-Record (Indirect) Strategies
+	1.	Give hints
+		• Example 1: “It’s chilly in here…” (chilly in here) – hint to close the window
+		• Example 2: “I’m thirsty.” (I’m thirsty) – hint to offer a drink
+	2.	Give association clues
+		• Example 1: “Oh no, I forgot my wallet!” (forgot my wallet) – hint to pay for them
+		• Example 2: “My phone just died.” (phone just died) – hint to borrow a phone
+	3.	Presuppose
+		• Example 1: “I cleaned it again today.” (again) – presupposes someone else didn’t
+		• Example 2: “Did you check the oven?” (Did you check) – implies concern or oversight
+	4.	Understate
+		• Example 1: “The movie was not exactly thrilling.” (not exactly thrilling)
+		• Example 2: “His speech was somewhat unclear.” (somewhat unclear)
+	5.	Overstate
+		• Example 1: “I’ve waited forever for your reply!” (waited forever)
+		• Example 2: “I’m starving!” (starving)
+	6.	Tautologies
+		• Example 1: “Business is business.” (Business is business)
+		• Example 2: “It is what it is.” (It is what it is)
+	7.	Contradictions
+		• Example 1: “It’s good, but at the same time, not good.” (good, but not good)
+		• Example 2: “I’m happy and not happy about this.” (happy and not happy)
+	8.	Be ironic
+		• Example 1: “Lovely day we’re having!” (Lovely day) – during bad weather
+		• Example 2: “That went well!” (That went well) – after a failure
+	9.	Use metaphors
+		• Example 1: “He’s got a heart of stone.” (heart of stone)
+		• Example 2: “She’s a ray of sunshine.” (ray of sunshine)
+	10.	Rhetorical questions
+		• Example 1: “How many times must I tell you?” (How many times)
+		• Example 2: “Do I look like I’m joking?” (Do I look)
+	11.	Be ambiguous
+		• Example 1: “Something feels off about this.” (feels off)
+		• Example 2: “It seems unusual somehow…” (seems unusual)
+	12.	Be vague
+		• Example 1: “I’m a bit upset.” (a bit)
+		• Example 2: “I kind of disagree.” (kind of)
+	13.	Over-generalize
+		• Example 1: “Everyone knows it’s not true.” (Everyone knows)
+		• Example 2: “Nobody likes that.” (Nobody)
+	14.	Displace hearer
+		• Example 1: “I wish someone would help.” (someone)
+		• Example 2: “It’d be great if someone cleaned up.” (someone)
+	15.	Be incomplete (ellipsis)
+		• Example 1: “If only you knew…” (If only you knew)
+		• Example 2: “Well, if you could just…” (if you could just)
+
+IV. Bald-on-Record Strategies
+	1.	Direct questions/statements
+		• Example 1: “What are you doing?” (What are you doing?)
+		• Example 2: “Where did you put it?” (Where did you put it?)
+	2.	Direct commands (imperatives)
+		• Example 1: “Stop right now!” (Stop)
+		• Example 2: “Bring it to me immediately.” (Bring it)
+	3.	Sentence-initial imperative forms (“Please” start—less polite)
+		• Example 1: “Please move out of my way.” (Please move)
+		• Example 2: “Please finish your work quickly.” (Please finish)
+	4.	Sentence-initial second-person statements (less polite)
+		• Example 1: “You need to fix this.” (You need to)
+		• Example 2: “You’ve misunderstood me.” (You’ve misunderstood)
+	5.	Factuality (direct assertions, less polite)
+		• Example 1: “Actually, you did it incorrectly.” (you did it incorrectly)
+		• Example 2: “The truth is you failed to deliver.” (you failed to deliver)
+	6.	Negative lexicon (negative sentiment, impolite)
+		• Example 1: “You’re always messing things up!” (always messing things up)
+		• Example 2: “If you’re going to accuse me…” (accuse me)
