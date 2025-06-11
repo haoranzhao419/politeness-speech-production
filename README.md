@@ -9,9 +9,7 @@
 - `web design`:
 
 
-# Project documentation 
 
-## Preregistration
 
 ## Manuscripts 
 
