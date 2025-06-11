@@ -1,0 +1,80 @@
+---
+title: "Politeness lmer analysis (CogSci 2025)"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(lme4)
+
+d <- read_csv('./step5/whole_response_dataframe_cleaned_final.csv')
+
+d %>%
+  filter(label == 'human_vs_LLM') %>%
+  group_by(preferences, goal) %>%
+  tally() %>%
+  group_by(goal) %>%
+  mutate(m = n / sum(n))
+
+m0 <- d %>%
+  filter(label == 'human_vs_LLM') %>%
+  mutate(cleaned_preferences = as.factor(cleaned_preferences)) %>%
+  glmer(cleaned_preferences ~ 1 + (1 | scenario) + (1 | ID),
+       family = binomial,
+       data = .) 
+
+m1 <- d %>%
+  filter(label == 'human_vs_LLM') %>%
+  mutate(cleaned_preferences = as.factor(cleaned_preferences)) %>%
+  glmer(cleaned_preferences ~ 1 + goal + (1  | scenario) + (1 | ID),
+       family = binomial,
+       contrasts = list(goal = contr.sum(4)),
+       data = .) 
+
+summary(m0)
+anova(m0, m1)
+```
+
+```{r}
+
+d %>%
+  filter(label == 'aligned_rating_misaligned_goal_human_response') %>%
+  mutate(cleaned_preferences = as.factor(cleaned_preferences)) %>%
+  glmer(cleaned_preferences ~ 1 + (1 | scenario) + (1 | ID),
+       family = binomial,
+       data = .) %>%
+  summary()
+
+
+d %>%
+  filter(label == 'aligned_rating_misaligned_goal_llm_response') %>%
+  mutate(cleaned_preferences = as.factor(cleaned_preferences)) %>%
+  glmer(cleaned_preferences ~ 1 + (1 | scenario),
+       family = binomial,
+       data = .) %>%
+  summary()
+```
+
+```{r}
+
+d %>%
+  filter(label == 'aligned_goal_misaligned_rating_human_response') %>%
+  mutate(cleaned_preferences = as.factor(cleaned_preferences)) %>%
+  glmer(cleaned_preferences ~ 1 + (1 | scenario) + (1 | ID),
+       family = binomial,
+       data = .) %>%
+  summary()
+
+d %>%
+  filter(label == 'aligned_goal_misaligned_rating_llm_response') %>%
+  mutate(cleaned_preferences = as.factor(cleaned_preferences)) %>%
+  glmer(cleaned_preferences ~ 1 + (1 | scenario) + (1 | ID),
+       family = binomial,
+       data = .) %>%
+  summary()
+
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
